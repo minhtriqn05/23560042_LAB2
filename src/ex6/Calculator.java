@@ -1,0 +1,27 @@
+package ex6;
+
+/**
+ * Exercise 6: same method names with different parameter lists (method overloading).
+ */
+public class Calculator {
+
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    public double add(double a, double b) {
+        return a + b;
+    }
+
+    public int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    public int max(int a, int b) {
+        return (a > b) ? a : b;
+    }
+
+    public double max(double a, double b) {
+        return (a > b) ? a : b;
+    }
+}
